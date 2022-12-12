@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #080808;
+    color: #fff;
+}
+/* --------------------------------Photo---------------------------------------------------------------------------- */
+#photo{
+    margin-left: 70%;
+    height:60%;
+    width: 30%;
+    border-radius: 10%;
+}
+
+
+
+
+
+#header{
+    
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(images/background.png); */
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+   
+}
+
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    /* background-color: red; */
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 20px;
+}
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    position:relative;
+}
+nav ul li a::after{
+ content: '';
+ width:0;
+ height: 3px;
+ background:#ffea00 ;
+ position:absolute;
+ left:0;
+ bottom:-6px;
+transition: 0.5s;
+
+}
+nav ul li a:hover::after{
+    width:100%;
+}
+
+.header-text{
+margin-top:-20%;
+font-size:30px;
+
+}
+.header-text h1{
+ font-size:60px;
+ margin-top:10px;
+}
+/* .header-text h1 span{
+ color:red;
+} */
+.header-text h1 span:hover{
+    color:#ffea00;
+   }
+
+#images{
+    height:10%;
+    width:20%;
+    margin-left:-10%;
+    margin-top:-4%;
+}
+#textnav{
+    margin-top:-10%;
+    position: fixed;
+    margin-left: 50%;
+}
+
+
+/* -------------------------------------about------------------------------------------------------------------ */
+
+#about{
+    padding:80px 0;
+    color:#ababab;
+    /* /* margin-left: 100px; */
+} 
+#aboutme
+{
+    width: 50%;
+    margin-left: 40%;
+    color: white;
+}
+#name{
+    margin-left: 40%;
+}
+#about p{
+   margin-left: 20%;
+  
+}
+/* --------------------------------------------project---------------------------------------------------------- */
+
+#project{
+    padding: 50px 0;
+    background-color: #252422;
+}
+.projectwork
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:40px;
+    margin-top: 50px;
+}
+.projectw1
+{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.projectw1 img{
+    width:100%;
+    border-radius: 10px;
+    display: block;
+}
+.tech-stack{
+    display: flex;
+}
+.logo1{
+    height: 40%;
+}
+.heading {
+    margin-top: 20px;
+}
+.desc{
+    margin-top: 20px;
+}
+.tech-stack2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fb6f92;
+}
+
+/* -----------------------------------------------------CONTACT----------------------------------- */
+#contact{
+    padding: 50px 0;
+    background-color:gray;
+}
+
+#subid{
+    margin-top: 20px;
+}
+.contactLeft{
+    flex-basis:35%;
+}
+.contactLeft p{
+   margin-top: 30px;
+}
+.contactLeft p i{
+    color:#ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.contactRight{
+    flex-basis:60%;
+}
+.socialIcons{
+    margin-top: 30px;
+}
+.socialIcons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition:transform 0.5s;
+}
+.socialIcons a:hover
+{
+    color:#ff004f;
+    transform:translateY(-5px);
+}
+.contactRight form{
+    width:100%;
+}
+form input,form textarea{
+    width: 100%;
+    border:0;
+    outline: none;
+    background: #262626;
+    padding:15px;
+    margin:15px 0;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 6px;
+
+}
+
+    .submit {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.submit:active,
+.submit:hover {
+  outline: 0;
+}
+
+.submit span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.submit:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+    .submit {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+/* ---------------------------------------------------Skills------------------------------------------------------------ */
+#skilshere{
+    padding: 50px 0;
+    height: 50%;
+    background-color: #1d2127;
+    margin:center;
+}
+.logo{
+    height: 90%;
+}
+#TechStack{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#skillheading h1{
+   
+    margin-left: 100px;
+}
+#myskills{
+    margin-top: 50px;
+}
+
+/* -----------------------------------resume--------------------------------------------------------------- */
+.resume {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.resume:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.resume:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.resume:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.resume.resumedown{
+   margin-top: 80px;
+}
