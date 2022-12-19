@@ -5,22 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio website</title>
     <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/bb1c498e26.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="header">
     <div class="container">
-        <nav >
+        <nav id="navopenclose">
             <img id="images" src="images/DikshantLogo.png" alt="logo">
             <ul id="textnav">
+                <i class="fa-solid fa-xmark" onclick="myCloser()"></i>
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skilshere">Skill's</a></li>
                 <li><a href="#project">Project</a></li>
-                
-                
+                <li><a href="images/cv.pdf" download>Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
-               
+                
             </ul>
+            <div onclick="myOppener()">
+                <i class="fa-solid fa-bars" ></i>
+            </div>
+            
         </nav>
         <img id="photo" src="images/photo1.png" alt="">
       <div class="header-text"  >
@@ -43,8 +48,8 @@
                 <br>
             <h3 id="name"> Hii. I am Dikshant</h3>
             <br>
-            <p>To pursue a carrer with an Organization which will help me to explore and achieve
-                expertise through opportunities and learning, <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp which will help me to enhance my skill along with ensuring 
+            <p id="parag">To pursue a carrer with an Organization which will help me to explore and achieve
+                expertise through opportunities and learning, <br>  &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp which will help me to enhance my skill along with ensuring 
                 organizational success.
             </p>
         </div>
@@ -61,20 +66,30 @@
         </div>
         <div id="TechStack">
             <div>
-                <img class="logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML">
-               </div>
-               
-               <div>
-                <img class="logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS">
-               </div>
-               <div>
-                <img  class="logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript">
-               </div>
-               <div>
-                <img class="logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Core Java">
-               </div>
+                <img  class="logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML">
+                </div>
+                <br>
                 <div>
-                    <img class="logo"  src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git hub">
+                <img  class="logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS">
+                </div>
+                <br>
+                <div>
+                <img    class="logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript">
+                </div>
+                <div>
+                    <img class="logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Core Java">
+                   </div>
+
+        </div>
+    </div>
+    <div id="myskills">
+        <div id="skillheading">
+            <h1 > Tech-Stack </h1>
+        </div>
+        <div id="TechStack">
+            <div>
+                <div>
+                    <img class="logo3"  src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git hub">
                 </div>
         </div>
     </div>
@@ -138,10 +153,10 @@
                     Contact Me
                 </h1>
                 <p> <i class="fa-solid fa-envelope"></i> </i> dikshantdeogade72@gmail.com</p>
-                <p><i class="fa-solid fa-phone-rotary"></i> 8380870698</p>
-                <div class="socialIcons">
+                <p> <i class="fa-solid fa-phone"></i> 8380870698</p>
+                <!-- <div class="socialIcons">
                     <a href="linkedin.com/in/dikshant-deogade-29ba82246"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
+                </div> -->
             </div>
             <div class="contactRight">
 

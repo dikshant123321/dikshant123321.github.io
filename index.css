@@ -168,6 +168,7 @@ font-size:30px;
 
 #subid{
     margin-top: 20px;
+    margin-left:-20%;
 }
 .contactLeft{
     flex-basis:35%;
@@ -267,24 +268,28 @@ form input,form textarea{
 /* ---------------------------------------------------Skills------------------------------------------------------------ */
 #skilshere{
     padding: 50px 0;
-    height: 50%;
+    /* height: 50%; */
     background-color: #1d2127;
     margin:center;
+    
 }
 .logo{
-    height: 90%;
+    height: 60%;
+    width: 50%;
+    /* margin-left: 200px; */
 }
 #TechStack{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     margin-top: 20px;
+    margin-left: 200px;
 }
 #skillheading h1{
    
-    margin-left: 100px;
+    margin-left: 150px;
 }
 #myskills{
-    margin-top: 50px;
+    margin-top: 15px;
 }
 
 /* -----------------------------------resume--------------------------------------------------------------- */
@@ -335,4 +340,54 @@ form input,form textarea{
 
 .resume.resumedown{
    margin-top: 80px;
+}
+/* -------------------------------------------media------------------------------------------ */
+nav .fa-solid{
+    display:none;
+}
+@media only screen and (max-width:600px)
+{
+    #photo{
+        margin-left: 50%;
+        height:50%;
+        width: 40%;
+        border-radius: 10%;
+    }
+    .header-text{
+        margin-top:-15%;
+        font-size:15px;
+        word-wrap: break-word;
+        }
+        .header-text h1{
+         font-size:30px;
+         margin-top:10px;
+        }
+        nav .fa-solid{
+            display:block;
+            font-size: 25px;
+        }
+        #textnav{
+            background: #ff004f;
+            position: fixed;
+            top:0;
+            right:-200;
+            width:200px;
+            height:100vh;
+            padding-top: 50px;
+            z-index: 2;
+        }
+        nav ul li{
+            display: block;
+            margin: 20px;
+        }
+        nav ul .fa-solid{
+            position: absolute;
+            margin-bottom: 10px;
+            left: 25px;
+            cursor: pointer;
+        }
+       
+
+        
+
 }
