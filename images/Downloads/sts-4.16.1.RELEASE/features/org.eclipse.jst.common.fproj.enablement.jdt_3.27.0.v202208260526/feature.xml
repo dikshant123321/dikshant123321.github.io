@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jst.common.fproj.enablement.jdt"
+      label="%featureName"
+      version="3.27.0.v202208260526"
+      provider-name="%providerName"
+      plugin="org.eclipse.jst.common.project.facet.core">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.jst.common.project.facet.core"
+         download-size="189"
+         install-size="408"
+         version="1.12.100.v202208260526"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.common.project.facet.ui"
+         download-size="142"
+         install-size="260"
+         version="1.4.511.v202007142017"
+         unpack="false"/>
+
+</feature>

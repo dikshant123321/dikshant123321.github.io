@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.m2e.wtp.feature"
+      label="%featureName"
+      version="1.5.2.20220906-1452"
+      provider-name="%providerName"
+      plugin="org.eclipse.m2e.wtp">
+   <install-handler/>
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <requires>
+      <import feature="org.eclipse.platform" version="3.6.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.rcp" version="3.6.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.jdt" version="3.6.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.wst.common.fproj" version="3.2.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.jst.common.fproj.enablement.jdt" version="3.2.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.m2e.feature" version="2.0.2" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.m2e.wtp"
+         download-size="385"
+         install-size="818"
+         version="1.5.2.20220906-1452"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2e.wtp.overlay"
+         download-size="73"
+         install-size="187"
+         version="1.5.0.20220805-2025"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2e.wtp.overlay.ui"
+         download-size="18"
+         install-size="68"
+         version="1.5.0.20220805-2025"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

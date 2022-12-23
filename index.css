@@ -8,15 +8,36 @@ body{
     background: #080808;
     color: #fff;
 }
+
+/* --------------------------------------------navbar--------------------------------------------------------------------- */
+#navbar{
+    width: 100%;
+     display: flex;
+     justify-content: space-around;
+     font-size: 20px;
+     /* border:1px solid red; */
+     padding: 15px;
+     background: #003566;
+     position:fixed;
+     
+    
+}
+#navbar>div>a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
 /* --------------------------------Photo---------------------------------------------------------------------------- */
 #photo{
     margin-left: 70%;
     height:60%;
     width: 30%;
     border-radius: 10%;
+    margin-top: -10%;
 }
-
-
 
 
 
@@ -34,40 +55,10 @@ body{
 .container{
     padding: 10px 10%;
 }
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    
-    /* background-color: red; */
-}
 
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin:10px 20px;
-}
-nav ul li a{
-    color:#fff;
-    text-decoration: none;
-    font-size: 18px;
-    position:relative;
-}
-nav ul li a::after{
- content: '';
- width:0;
- height: 3px;
- background:#ffea00 ;
- position:absolute;
- left:0;
- bottom:-6px;
-transition: 0.5s;
 
-}
-nav ul li a:hover::after{
-    width:100%;
-}
+
+
 
 .header-text{
 margin-top:-20%;
@@ -86,17 +77,27 @@ font-size:30px;
    }
 
 #images{
-    height:10%;
+    /* height:10%; */
     width:20%;
-    margin-left:-10%;
-    margin-top:-4%;
+    margin-left:-8%;
+    /* margin-top:-4%; */
 }
 #textnav{
-    margin-top:-10%;
+   
+    margin-top:-31%;
     position: fixed;
-    margin-left: 50%;
+    /* margin-left: -30%; */
+    background-color:#f72585;
+    width: 100%;
+   
 }
-
+#textnav li a{
+   background-color: red;
+   /* display: flex; */
+   border: 1px solid green;
+   width: 1000%;
+   
+}
 
 /* -------------------------------------about------------------------------------------------------------------ */
 
@@ -134,7 +135,7 @@ font-size:30px;
 .projectw1
 {
     border-radius: 10px;
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
 }
 .projectw1 img{
@@ -158,6 +159,10 @@ font-size:30px;
     margin-top: 20px;
     margin-bottom: 20px;
     color: #fb6f92;
+}
+.live{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* -----------------------------------------------------CONTACT----------------------------------- */
@@ -268,21 +273,28 @@ form input,form textarea{
 /* ---------------------------------------------------Skills------------------------------------------------------------ */
 #skilshere{
     padding: 50px 0;
-    /* height: 50%; */
+  
     background-color: #1d2127;
-    margin:center;
+   
     
 }
 .logo{
-    height: 60%;
-    width: 50%;
-    /* margin-left: 200px; */
+    height: 80%;
+    /* width: 50%;  */
+    
 }
+
 #TechStack{
     display: flex;
-    justify-content:space-between;
+    justify-content: space-around;
     margin-top: 20px;
     margin-left: 200px;
+   
+}
+.spring{
+    width: 130%;
+    height: 100%;
+    /* margin-left:-50px; */
 }
 #skillheading h1{
    
@@ -312,7 +324,7 @@ form input,form textarea{
   overflow: hidden;
   padding-left: 16px;
   padding-right: 16px;
-  position: relative;
+  /* position: relative; */
   text-align: left;
   text-decoration: none;
   transition: box-shadow .15s,transform .15s;
@@ -320,7 +332,7 @@ form input,form textarea{
   -webkit-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
-  will-change: box-shadow,transform;
+  /* will-change: box-shadow,transform; */
   font-size: 18px;
 }
 
@@ -340,6 +352,35 @@ form input,form textarea{
 
 .resume.resumedown{
    margin-top: 80px;
+}
+
+/* -----------------------------------Git ----------------------------------------------------------- */
+#stats>div{
+    margin-bottom: 30px;
+}
+#stats{
+    padding: 50px 0;
+    margin-left: 130px;
+   margin-top: 15px;
+}
+#stats h1{
+    margin-bottom: 20px;
+}
+#secondStats{
+    margin-left: 55%;
+    margin-top: -18%;
+    
+}
+.firstImg{
+    width: 40%;
+}
+#gitCalender{
+    padding: 50px 0;
+    margin-left: 60px;
+   margin-top: -20px;
+}
+#gitCalender h1{
+    margin-left: 65px;
 }
 /* -------------------------------------------media------------------------------------------ */
 nav .fa-solid{
@@ -368,6 +409,7 @@ nav .fa-solid{
         }
         #textnav{
             background: #ff004f;
+            
             position: fixed;
             top:0;
             right:-200;

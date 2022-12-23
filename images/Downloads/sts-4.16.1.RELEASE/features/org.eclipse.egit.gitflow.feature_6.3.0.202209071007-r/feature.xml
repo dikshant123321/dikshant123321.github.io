@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.egit.gitflow.feature"
+      label="%featureName"
+      version="6.3.0.202209071007-r"
+      provider-name="%providerName"
+      plugin="org.eclipse.egit.gitflow">
+
+   <description url="https://www.eclipse.org/egit/">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="https://download.eclipse.org/egit/updates"/>
+      <discovery label="%updateSiteName" url="https://download.eclipse.org/egit/updates"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.jgit" version="6.3.0" match="equivalent"/>
+      <import plugin="org.eclipse.egit.core" version="6.3.0" match="equivalent"/>
+      <import plugin="org.eclipse.egit.ui" version="6.3.0" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.egit.gitflow"
+         download-size="58"
+         install-size="121"
+         version="6.3.0.202209071007-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.egit.gitflow.ui"
+         download-size="106"
+         install-size="253"
+         version="6.3.0.202209071007-r"
+         unpack="false"/>
+
+</feature>

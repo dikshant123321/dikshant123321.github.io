@@ -10,3 +10,7 @@ function myCloser(){
     let x=document.getElementById("textnav");
     x.style.right='-200px';
 }
+
+function mail(){
+    
+}

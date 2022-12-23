@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.m2e.wro4j.feature"
+      label="%featureName"
+      version="1.2.0.202209071019"
+      provider-name="%providerName"
+      plugin="org.jboss.tools.m2e.wro4j.core">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+   
+   <plugin
+         id="org.jboss.tools.m2e.wro4j.core"
+         download-size="13"
+         install-size="43"
+         version="1.2.0.202209071019"
+         unpack="false"/>
+   <plugin
+         id="org.jboss.tools.m2e.wro4j.ui"
+         download-size="2"
+         install-size="1"
+         version="1.2.0.202209071019"
+         unpack="false"/>         
+</feature>

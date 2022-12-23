@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+	id="org.springframework.boot.ide.main.feature"
+	label="Spring Tool Suite 4 Main Feature"
+	version="4.16.1.202210240748"
+	provider-name="VMware, Inc.">
+
+    <description>
+       %description
+    </description>
+
+    <copyright>
+       %copyright
+    </copyright>
+
+    <license url="%licenseUrl">
+       %license
+    </license>
+
+    <requires>
+       <import feature="org.springframework.ide.eclipse.xml.namespaces.feature" version="3.9.9" match="greaterOrEqual"/>
+    </requires>
+
+    <plugin
+          id="org.springframework.ide.eclipse.boot"
+          download-size="243"
+          install-size="519"
+          version="4.16.1.202210240748"
+          unpack="false"/>
+
+    <plugin
+          id="org.springframework.ide.eclipse.boot.templates"
+          download-size="22"
+          install-size="45"
+          version="4.16.1.202210240748"
+          unpack="false"/>
+
+    <plugin
+          id="org.springframework.ide.eclipse.boot.validation"
+          download-size="52"
+          install-size="100"
+          version="4.16.1.202210240748"
+          unpack="false"/>
+         
+    <plugin
+          id="org.springframework.ide.eclipse.boot.launch"
+          download-size="211"
+          install-size="482"
+          version="4.16.1.202210240748"
+          unpack="false"/>
+
+    <plugin
+          id="org.springframework.ide.eclipse.boot.wizard"
+          download-size="428"
+          install-size="988"
+          version="4.16.1.202210240748"
+          unpack="false"/>
+
+    <plugin
+          id="org.springframework.ide.eclipse.boot.restart"
+          download-size="21"
+          install-size="34"
+          version="4.16.1.202210240748"
+          unpack="false"/>
+
+    <plugin
+          id="org.springframework.ide.eclipse.imports"
+          download-size="25"
+          install-size="48"
+          version="4.16.1.202210240748"
+          unpack="false"/>
+         
+    <plugin
+          id="org.springframework.ide.eclipse.buildship30"
+          download-size="28"
+          install-size="56"
+          version="4.16.1.202210240748"
+          unpack="false"/>
+
+    <plugin
+          id="org.springframework.ide.eclipse.maven.pom"
+          download-size="53"
+          install-size="106"
+          version="4.16.1.202210240748"
+          unpack="false"/>
+
+</feature>
