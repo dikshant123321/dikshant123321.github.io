@@ -33,10 +33,12 @@ body{
 /* --------------------------------Photo---------------------------------------------------------------------------- */
 #photo{
     margin-left: 70%;
-    height:60%;
-    width: 30%;
+    /* height:60%;
+    width: 30%; */
     border-radius: 10%;
     margin-top: -10%;
+    height:60vh;
+    
 }
 
 
@@ -62,12 +64,13 @@ body{
 
 .header-text{
 margin-top:-20%;
-font-size:30px;
+font-size:2vw;
 
 }
 .header-text h1{
- font-size:60px;
+ /* font-size:60px; */
  margin-top:10px;
+ font-size: 8vh;
 }
 /* .header-text h1 span{
  color:red;
@@ -382,31 +385,89 @@ form input,form textarea{
 #gitCalender h1{
     margin-left: 65px;
 }
+#add{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap:10px;
+    padding:5% 0% 5% 10%;
+}
+#fi{
+    height:80%;
+    width: 90%;
+}
+#third{
+    height:80%;
+    width: 90%;
+}
+#sec{
+    height:80%;
+    width: 90%;
+}
+#headingStatistic{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#gitcalender{
+    width: 80%;
+    height: auto; 
+    margin-top: 5vh;
+    color: green;
+    margin-left: 10%;
+}
+#intelij{
+    /* border: 1px solid red; */
+    width:7%;
+    height: 80%;
+    margin-left: 5%;
+
+}
+#tool{
+    margin-left:8%;
+}
 /* -------------------------------------------media------------------------------------------ */
 nav .fa-solid{
     display:none;
 }
 @media only screen and (max-width:600px)
 {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'poppins',sans-serif;
+        box-sizing: border-box;
+        width: auto;
+    }
+    #header{
+        height: auto;
+    }
+    #navbar{
+        display: none;
+        width:none;
+    }
     #photo{
-        margin-left: 50%;
-        height:50%;
-        width: 40%;
+        margin-left: 55%;
+        height:35vh;
+        width: 50%;
         border-radius: 10%;
     }
     .header-text{
-        margin-top:-15%;
-        font-size:15px;
+        margin-top:-10%;
+        /* font-size:15px; */
         word-wrap: break-word;
+        font-size:4vw;
         }
         .header-text h1{
-         font-size:30px;
-         margin-top:10px;
+         /* font-size:21px; */
+         /* margin-top:10px; */
+         /* margin-top: -30%; */
+         margin-top: -4vh;
+         font-size: 5vw;
         }
-        nav .fa-solid{
+        /* nav .fa-solid{
             display:block;
             font-size: 25px;
-        }
+        } */
         #textnav{
             background: #ff004f;
             
@@ -418,18 +479,31 @@ nav .fa-solid{
             padding-top: 50px;
             z-index: 2;
         }
-        nav ul li{
+        /* nav ul li{
             display: block;
             margin: 20px;
-        }
-        nav ul .fa-solid{
+        } */
+        /* nav ul .fa-solid{
             position: absolute;
             margin-bottom: 10px;
             left: 25px;
             cursor: pointer;
-        }
-       
-
-        
+        } */
+       #about{
+        display: none;
+        width:none;
+        height: none;
+      }
+     #skilshere{
+        display: none;
+        width:none;
+        height: none;
+     }
+      #stats{
+        display: none;
+        width:none;
+        height: none;
+      }
+         
 
 }
