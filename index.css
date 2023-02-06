@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #080808;
+    background: black;
     color: #fff;
 }
 
@@ -21,6 +21,9 @@ body{
      position:fixed;
      
     
+}
+#menubar{
+    position: relative;
 }
 #navbar>div>a{
     text-decoration: none;
@@ -107,6 +110,7 @@ font-size:2vw;
 #about{
     padding:80px 0;
     color:#ababab;
+    background-color: #212529;
     /* /* margin-left: 100px; */
 } 
 #aboutme
@@ -137,12 +141,16 @@ font-size:2vw;
 }
 .projectw1
 {
+    /* box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; */
     border-radius: 10px;
+    padding: 5%;
     /* position: relative; */
     overflow: hidden;
+    border: 1px solid #f72585;
 }
 .projectw1 img{
     width:100%;
+    /* height: 40%; */
     border-radius: 10px;
     display: block;
 }
@@ -165,6 +173,7 @@ font-size:2vw;
 }
 .live{
     display: flex;
+    
     justify-content: space-evenly;
 }
 
@@ -274,39 +283,51 @@ form input,form textarea{
 }
 
 /* ---------------------------------------------------Skills------------------------------------------------------------ */
-#skilshere{
-    padding: 50px 0;
-  
-    background-color: #1d2127;
-   
-    
+#skills{
+    background-color:#343a40;
+    padding: 8%;
 }
-.logo{
-    height: 80%;
-    /* width: 50%;  */
-    
+#headingskills{
+    margin-bottom: 5%;
 }
-
-#TechStack{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-    margin-left: 200px;
-   
-}
-.spring{
-    width: 130%;
-    height: 100%;
-    /* margin-left:-50px; */
-}
-#skillheading h1{
-   
-    margin-left: 150px;
-}
-#myskills{
-    margin-top: 15px;
+#Skill{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap:5%;
+   /* column-gap: 10%; */
+    /* padding:5% 0% 5% 10%; */
+    margin-left: 8%;
 }
 
+#hibernate{
+    margin-top: 5%;
+    height: 90%;
+    width: 80%;
+    
+}
+.skillimg{
+    width: 50%;
+    padding: 8%;
+   
+}
+.boxskill
+{
+    background-color: #D6D6E7;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   padding-left: 30%;
+   
+}
+.headskill{
+    color: #080808;
+    margin-bottom: 5%;
+}
+.mar{
+    margin-left: 12%;
+}
+.hiber{
+    margin-top:-15%;
+}
 /* -----------------------------------resume--------------------------------------------------------------- */
 .resume {
   align-items: center;
@@ -426,8 +447,8 @@ form input,form textarea{
     margin-left:8%;
 }
 /* -------------------------------------------media------------------------------------------ */
-nav .fa-solid{
-    display:none;
+#menubar{
+    display: none;
 }
 @media only screen and (max-width:600px)
 {
@@ -441,10 +462,15 @@ nav .fa-solid{
     #header{
         height: auto;
     }
-    #navbar{
-        display: none;
-        width:none;
-    }
+   #navbar{
+    display: none;
+   }
+   #menubar{
+    display: block;
+    margin-left: 90vw;
+    margin-top: 2vh;
+}
+   
     #photo{
         margin-left: 55%;
         height:35vh;
@@ -464,10 +490,7 @@ nav .fa-solid{
          margin-top: -4vh;
          font-size: 5vw;
         }
-        /* nav .fa-solid{
-            display:block;
-            font-size: 25px;
-        } */
+        
         #textnav{
             background: #ff004f;
             
@@ -479,16 +502,7 @@ nav .fa-solid{
             padding-top: 50px;
             z-index: 2;
         }
-        /* nav ul li{
-            display: block;
-            margin: 20px;
-        } */
-        /* nav ul .fa-solid{
-            position: absolute;
-            margin-bottom: 10px;
-            left: 25px;
-            cursor: pointer;
-        } */
+       
        #about{
         display: none;
         width:none;
@@ -505,5 +519,21 @@ nav .fa-solid{
         height: none;
       }
          
+      .boxskill{
+             
+      background-color: #D6D6E7;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
+      }
+      .headskill{
+        color: #080808;
+        font-size:8%;
+        margin-bottom: 5%;
+    }
+    .mar{
+        margin-left: 12%;
+    }
+    .hiber{
+        margin-top:-15%;
+    }
 }
