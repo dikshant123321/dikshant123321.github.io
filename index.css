@@ -446,7 +446,9 @@ form textarea {
   width: 40px;
   height: 40px;
 }
-
+.skills-card-name{
+  text-align: center;
+}
 
 
 /* ============================== Making Responsive=========================================== */
