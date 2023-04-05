@@ -259,7 +259,7 @@ span {
 .react-bar {
   width: 80%;
 }
-.services-content {
+.skills-card {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   justify-content: center;
@@ -321,15 +321,15 @@ span {
   gap: 2rem;
   margin-top: 2rem;
 }
-.portfolio-img {
+.project-card {
   overflow: hidden;
   border-radius: 0.5rem;
 }
-.portfolio-img img {
+.project-card img {
   width: 100%;
   display: block;
 }
-.portfolio-img img:hover {
+.project-card img:hover {
   transform: scale(1.1);
   transition: 1s;
 }
