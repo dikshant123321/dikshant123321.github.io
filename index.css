@@ -320,7 +320,7 @@ span {
   grid-template-columns: repeat(auto-fit, minmax(400px, auto));
   gap: 2rem;
   margin-top: 2rem;
- border: 10px solid red;
+ border: 10px solid green;
 }
 .project-card {
    border: 1px solid red;
