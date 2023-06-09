@@ -320,6 +320,7 @@ span {
   grid-template-columns: repeat(auto-fit, minmax(400px, auto));
   gap: 2rem;
   margin-top: 2rem;
+  
  border: 10px solid green;
 }
 .project-card {
@@ -473,6 +474,9 @@ form textarea {
     height: 80%;
     width: auto;
   }
+  .portfolio-content {
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  }
 }
 /* @media (max-width: 881px) {
   :root {
@@ -587,6 +591,10 @@ form textarea {
   /* border :10px solid red; */
   width: 140%;
 }
+
+.portfolio-content {
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
   
 }
 @media (max-width: 340px) {
@@ -639,8 +647,6 @@ form textarea {
   .contact-button{
     margin-left: 25%;
   }
-  .project-card{
-    font-size: small;
-  }
+  
   
 }
