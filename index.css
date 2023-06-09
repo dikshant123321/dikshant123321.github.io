@@ -572,7 +572,7 @@ form textarea {
     border :1px solid black;
     display: block;
     margin-left: 50px;
-    margin-top: -50%;
+    margin-top: -30%;
 
   }
   .homeText h2 {
@@ -600,9 +600,9 @@ form textarea {
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
 }
 
-.homeadd{
-  min-height: 70vh;
-}
+/* .homeadd{
+  min-height: 90vh;
+} */
 
 }
 @media (max-width: 340px) {
@@ -611,13 +611,18 @@ form textarea {
     --medium-font: 1.1rem;
   } */
   .homeText{
-    width: 100%;
-    border :1px solid black;
+    width: 150%;
+    /* height: 20%;
+    border :1px solid black; */
     display: block;
     margin-left: 50px;
-    margin-top: -80%;
+    margin-top: -40%;
 
   }
+.homeadd{
+  min-height: 90vh;
+}
+
   /* .homeText span {
     font-size: var(--medium-font); 
     font-weight:500;
