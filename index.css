@@ -97,7 +97,7 @@ header.shadow {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: grid;
   grid-template-columns: 0.2fr 1fr 1fr;
   align-items: center;
@@ -571,7 +571,7 @@ form textarea {
     /* border :1px solid black; */
     display: block;
     margin-left: 50px;
-    margin-top: -40%;
+    margin-top: -20%;
 
   }
   .homeText h2 {
