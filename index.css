@@ -614,10 +614,10 @@ form textarea {
   .homeText{
     width: 150%;
     height: 20%;
-    border :1px solid black;
+    /* border :1px solid black; */
     display: block;
     margin-left: 50px;
-    margin-top: -40%;
+    margin-top: -50%;
 
   }
 .homeadd{
