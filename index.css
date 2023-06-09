@@ -320,6 +320,7 @@ span {
   grid-template-columns: repeat(auto-fit, minmax(400px, auto));
   gap: 2rem;
   margin-top: 2rem;
+ border: 10px solid red;
 }
 .project-card {
    border: 1px solid red;
@@ -559,15 +560,15 @@ form textarea {
     margin-left: 25%;
   }
   .homeText{
-    width: 100%;
+    width: 150%;
     /* border :1px solid black; */
     display: block;
     margin-left: 50px;
-    margin-top: -90%;
+    margin-top: -150%;
 
   }
   .homeText h2 {
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight:2%;
   }
   .homeText p {
@@ -581,6 +582,10 @@ form textarea {
   /* border: 1px solid red; */
   font-size: 70%;
   padding: 4%;
+}
+.homeImages{
+  /* border :10px solid red; */
+  width: 140%;
 }
   
 }
@@ -637,8 +642,5 @@ form textarea {
   .project-card{
     font-size: small;
   }
-  .homeImages{
-    height: 80%;
-    width: auto;
-  }
+  
 }
