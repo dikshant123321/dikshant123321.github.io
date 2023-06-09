@@ -97,7 +97,7 @@ header.shadow {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  /* a */
+  border:1px solid red;
   display: grid;
   grid-template-columns: 0.2fr 1fr 1fr;
   align-items: center;
@@ -479,6 +479,7 @@ form textarea {
   .portfolio-content {
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   }
+  
 }
 /* @media (max-width: 881px) {
   :root {
@@ -568,10 +569,10 @@ form textarea {
   }
   .homeText{
     width: 150%;
-    /* border :1px solid black; */
+    border :1px solid black;
     display: block;
     margin-left: 50px;
-    margin-top: -20%;
+    margin-top: -50%;
 
   }
   .homeText h2 {
@@ -600,7 +601,7 @@ form textarea {
 }
 
 .homeadd{
-  min-height: 75vh;
+  min-height: 70vh;
 }
 
 }
@@ -614,7 +615,7 @@ form textarea {
     border :1px solid black;
     display: block;
     margin-left: 50px;
-    margin-top: -50%;
+    margin-top: -80%;
 
   }
   /* .homeText span {
