@@ -97,6 +97,7 @@ header.shadow {
   position: relative;
   width: 100%;
   min-height: 100vh;
+  border: 1px solid red;
   display: grid;
   grid-template-columns: 0.2fr 1fr 1fr;
   align-items: center;
@@ -176,6 +177,7 @@ header.shadow {
   gap: 1rem;
   margin-top: 2rem; */
   margin: center;
+  
 }
  
 .about-img img {
@@ -542,6 +544,7 @@ form textarea {
   .about-container {
     grid-template-columns: 1fr;
   }
+ 
   .about-img {
     display: flex;
     justify-content: center;
@@ -568,7 +571,7 @@ form textarea {
     /* border :1px solid black; */
     display: block;
     margin-left: 50px;
-    margin-top: -150%;
+    margin-top: -40%;
 
   }
   .homeText h2 {
@@ -595,7 +598,11 @@ form textarea {
 .portfolio-content {
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
 }
-  
+
+.homeadd{
+  min-height: 75vh;
+}
+
 }
 @media (max-width: 340px) {
   /* :root {
@@ -647,6 +654,6 @@ form textarea {
   .contact-button{
     margin-left: 25%;
   }
-  
+ 
   
 }
