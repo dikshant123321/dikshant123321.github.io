@@ -569,10 +569,11 @@ form textarea {
   }
   .homeText{
     width: 150%;
-    border :1px solid black;
+    /* border :1px solid black; */
     display: block;
     margin-left: 50px;
-    margin-top: -30%;
+    margin-top: 15%;
+    /* margin-top: -3%; */
 
   }
   .homeText h2 {
@@ -612,8 +613,8 @@ form textarea {
   } */
   .homeText{
     width: 150%;
-    /* height: 20%;
-    border :1px solid black; */
+    height: 20%;
+    border :1px solid black;
     display: block;
     margin-left: 50px;
     margin-top: -40%;
