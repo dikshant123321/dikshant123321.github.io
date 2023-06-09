@@ -97,7 +97,7 @@ header.shadow {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  /* border: 1px solid red; */
+  /* a */
   display: grid;
   grid-template-columns: 0.2fr 1fr 1fr;
   align-items: center;
