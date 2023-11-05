@@ -497,6 +497,16 @@ footer span{
 footer i{
   background-color: #2768d9;
 }
+.footer-rights{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
 
 /* ============================== Making Responsive=========================================== */
 
