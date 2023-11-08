@@ -15,5 +15,5 @@
         navbar.classList.remove('active');
     }
      function resume(){
-        window.open("https://drive.google.com/file/d/1I3_HYPPrcLr9X4OQlN7a6jjiLO696lV7/view?usp=sharing","_blank");
+        // window.open("https://drive.google.com/drive/folders/1v1T2fP6pALLtHX5qXAKN3AFK_1QvW3Qo","_blank");
      }
